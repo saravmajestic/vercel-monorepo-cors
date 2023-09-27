@@ -1,0 +1,7 @@
+{
+  "name": "vercel-monorepo-cors",
+  "scripts": {
+    "start:api": "vercel dev --listen 5005",
+    "start:web": "cd web; npm run start"
+  }
+}
