@@ -7,7 +7,6 @@ function App() {
     const headers: HeadersInit = {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "application/json",
-      mode: "cors",
     };
 
     const response = await fetch(
